@@ -1,0 +1,263 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Rock and Ring",
+      "description": "While paid media can get you thousands of impressions, it may not always be worth the largest chunk of a marketing budget, especially if you’re thinking about the bigger picture.",
+      "imageUrl": "https://5.imimg.com/data5/HZ/MC/WG/SELLER-13758313/kids-toys-500x500.jpg",
+      "price": 199,
+      "category": "Kids"
+    },
+    {
+      "id": 2,
+      "name": "Jcb Machine",
+      "description": "I decided to do that internship because I read the description and it sounded cool.WEIGHT LIFTING IS THIS PLANETARY SCIENTIST’S PASTIMEBRYN NELSONMARCH 10, 2020SCIENCE NEWS FOR STUDENTS",
+      "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2020/9/YG/CU/FO/6599286/007-jcb-big-kids-toys-500x500.jpg",
+      "price": 299,
+      "category": "Mens"
+    },
+    {
+      "id": 3,
+      "name": "Toy Car",
+      "description": "Nurses found that working safely isn’t only about PPE and sanitation, but also a much broader range of practices, from using technology in new ways to changing job descriptions.",
+      "imageUrl": "https://baybee.co.in/wp-content/uploads/2019/01/Street-Speed-Kids-Ride-On-Push-Car-for-Toddlers-Baby-car-Toy-Children-Rider-Infant-Baby-car-Toys-Kids-Suitable-for-Boys-Girls1-3-Years-Orange.jpg",
+      "price": 399,
+      "category": "Kids"
+    },
+    {
+      "id": 4,
+      "name": "Teddy",
+      "description": "Later this year, developers will be required to include information in a so-called “nutrition label” about how their apps collect data on their app description page.",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ju5KbhVCL.jpg",
+      "price": 499,
+      "category": "Kids"
+    },
+    {
+      "id": 5,
+      "name": "Car",
+      "description": "Those restaurants’ profiles on Goldbelly are then linked to in the description box of the video and Thrillist makes a commission off of any transactions.",
+      "imageUrl": "https://5.imimg.com/data5/WX/SU/MY-63727127/kids-toys-500x500.jpg",
+      "price": 99,
+      "category": "Mens"
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "currentUser": "mohan",
+        "id": 2,
+        "name": "Jcb Machine",
+        "description": "I decided to do that internship because I read the description and it sounded cool.WEIGHT LIFTING IS THIS PLANETARY SCIENTIST’S PASTIMEBRYN NELSONMARCH 10, 2020SCIENCE NEWS FOR STUDENTS",
+        "price": 299,
+        "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2020/9/YG/CU/FO/6599286/007-jcb-big-kids-toys-500x500.jpg",
+        "category": "Kids"
+      },
+      "id": 39
+    },
+    {
+      "product": {
+        "currentUser": "mohan",
+        "id": 3,
+        "name": "Toy Car",
+        "description": "Nurses found that working safely isn’t only about PPE and sanitation, but also a much broader range of practices, from using technology in new ways to changing job descriptions.",
+        "price": 399,
+        "imageUrl": "https://baybee.co.in/wp-content/uploads/2019/01/Street-Speed-Kids-Ride-On-Push-Car-for-Toddlers-Baby-car-Toy-Children-Rider-Infant-Baby-car-Toys-Kids-Suitable-for-Boys-Girls1-3-Years-Orange.jpg",
+        "category": "Kids"
+      },
+      "id": 40
+    },
+    {
+      "product": {
+        "currentUser": "mohan",
+        "id": 1,
+        "name": "Rock and Ring",
+        "description": "While paid media can get you thousands of impressions, it may not always be worth the largest chunk of a marketing budget, especially if you’re thinking about the bigger picture.",
+        "price": 199,
+        "imageUrl": "https://5.imimg.com/data5/HZ/MC/WG/SELLER-13758313/kids-toys-500x500.jpg",
+        "category": "Kids"
+      },
+      "id": 41
+    },
+    {
+      "product": {
+        "currentUser": "ere",
+        "id": 1,
+        "name": "Rock and Ring",
+        "description": "While paid media can get you thousands of impressions, it may not always be worth the largest chunk of a marketing budget, especially if you’re thinking about the bigger picture.",
+        "price": 199,
+        "imageUrl": "https://5.imimg.com/data5/HZ/MC/WG/SELLER-13758313/kids-toys-500x500.jpg",
+        "category": "Kids"
+      },
+      "id": 42
+    }
+  ],
+  "wishlist": [
+    {
+      "product": {
+        "Id": 5,
+        "UserName": "ere"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "Id": 3,
+        "UserName": "mohan"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "Id": 2,
+        "UserName": "kaushik1"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "Id": 3,
+        "UserName": "ere"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "Id": 1,
+        "UserName": "ere"
+      },
+      "id": 10
+    }
+  ],
+  "RegisterUser": [
+    {
+      "user": {
+        "name": "Lalit Mohan",
+        "mail": "lmohan@meridianksi.com",
+        "username": "wqewe",
+        "password": "4321"
+      },
+      "id": 1
+    },
+    {
+      "user": {
+        "name": "Lalit Mohan",
+        "mail": "lmohan@meridianksi.com",
+        "username": "mohan",
+        "password": "4321"
+      },
+      "id": 2
+    },
+    {
+      "user": {
+        "name": "kaushik",
+        "mail": "lalit.mohan@3pillarglobal.com",
+        "username": "ere",
+        "password": "1234"
+      },
+      "id": 3
+    },
+    {
+      "user": {
+        "name": "krishan",
+        "mail": "krishan@gmail.com",
+        "username": "krishan",
+        "password": "Kaushik@123"
+      },
+      "id": 4
+    },
+    {
+      "user": {
+        "name": "kaushik1",
+        "mail": "lmohan@meridianksi.com",
+        "username": "kaushik1",
+        "password": "1234"
+      },
+      "id": 5
+    }
+  ],
+  "OrderData": [
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/04/25 3:04 PM",
+        "item": "Rock and Ring",
+        "qty": 1,
+        "price": 199
+      },
+      "id": 29
+    },
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/04/25 11:30 PM",
+        "item": "Teddy",
+        "qty": 1,
+        "price": 499
+      },
+      "id": 30
+    },
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/04/25 11:30 PM",
+        "item": "Jcb Machine",
+        "qty": 2,
+        "price": 598
+      },
+      "id": 31
+    },
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/04/25 11:30 PM",
+        "item": "Rock and Ring",
+        "qty": 1,
+        "price": 199
+      },
+      "id": 32
+    },
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/04/30 5:51 PM",
+        "item": "Toy Car",
+        "qty": 1,
+        "price": 399
+      },
+      "id": 33
+    },
+    {
+      "order": {
+        "userName": "ere",
+        "shippingAddress": "gandhi nagar muzaffarnagar",
+        "purchaseDate": "2022/05/30 10:36 AM",
+        "item": "Toy Car",
+        "qty": 1,
+        "price": 399
+      },
+      "id": 34
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom" 
+style="background-color:dodgerblue;color: white;text-decoration: solid;">
+    <app-header ></app-header>    
+
+    <nav class="d-inline-flex ml-1 mt-2 mt-md-0 ms-md"  >
+      <a class="me-3 py-3 text-dark text-decoration-none" [routerLink]="['/shop']" >Shop</a>
+      <a class="me-3 py-3 text-dark text-decoration-none" href="#">Enterprise</a>
+      <a class="me-3 py-3 text-dark text-decoration-none" [routerLink]="['/Order']">Orders</a>
+      <a class="me-2 py-1 text-dark text-decoration-none" [routerLink]="['/Cart']">
+          <img style="width:55%" src="assets/Cart Icon.png">
+        <!-- <i class="fa" style="font-size:24px">&#xf07a;</i> -->
+         <span class='badge badge-warning' id='lblCartCount'> {{TotalCartItem}} </span>       
+    </a>
+    </nav>
+    <div class="col-md-3 me-3 offset-md-2 mt-2">
+      <div class= "form-group">
+        <input type="text" class="form-control" name="itemName" [(ngModel)]="itemName" (ngModelChange)="searchText()" 
+              placeholder="search products ">       
+        
+      </div>
+    </div>
+   
+    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      
+<div *ngIf="currentUser">
+  <span  >Hello <strong style="text-transform: capitalize;">{{currentUser}}</strong></span> 
+  <a  class="btn btn-success" [routerLink]="['/login']" (click)="Logout()">Logout</a>
+</div>
+<div *ngIf="!currentUser">
+  <a class="btn btn-danger" [routerLink]="['/register']">Sign up</a>
+  <a  class="btn btn-primary" [routerLink]="['/login']">Login</a>
+</div>
+     
+     
+    </nav>
+   
+      
+  </div>
+  

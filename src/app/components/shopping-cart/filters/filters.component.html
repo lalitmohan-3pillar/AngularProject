@@ -1,0 +1,33 @@
+<div class="filters">
+<div class="card">
+    <div class="card-header">
+        <strong>Filter By Price</strong>
+    </div>   
+    <div class="card-body">        
+        <form  (ngSubmit)="Send()">
+            <div class="form-group">
+                <label for="from">From</label>
+                <input type="number" id="from" name="from" class="form-control" [(ngModel)]="model.from" >
+                
+            </div>
+            <div class="form-group">
+                <label for="to">To</label>
+                <input type="number" id="to" name="to" class="form-control" [(ngModel)]="model.to" > 
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <button class="btn btn-sm btn-primary product-btn mt-2" >Filter</button>
+                </div>
+                <div class="col-md-2">
+                    <div *ngIf="model.from ||model.to" class="card-text">
+                        <button class="btn btn-sm btn-link" (click)="Clear()" >Clear</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+    </form>
+    </div>
+</div>
+</div>
+

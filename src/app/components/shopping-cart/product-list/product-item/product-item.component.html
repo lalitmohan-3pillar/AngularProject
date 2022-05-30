@@ -1,0 +1,19 @@
+<img class="bd-placeholder-img card-img-top"  [src]='productItem.imageUrl'/>
+<div class="card-body">
+  <p class="card-text"> <strong>{{ productItem.name }}  </strong>  </p>
+    <p class="card-text">
+     
+        <strong>Price:</strong>  {{ productItem.price |currency: 'INR'}}
+        <i *ngIf="addedToWishList" class="fas fa-heart " (click)="handleRemoveFromWishList()"></i>
+        <i *ngIf="!addedToWishList" class="far fa-heart " (click)="handleAddToWishList()"></i>
+    </p>
+  <p class="card-text"> {{productItem.description | slice:0:80 }}..</p>
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group">
+      <button type="button" class="btn btn-sm btn-primary product-btn" (click)='handleAddToCart()'>Add to Cart</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary product-btn" 
+                  [routerLink]="['/ProductDetail/',productItem.id]">View Details</button>
+    </div>
+   
+  </div>
+</div>

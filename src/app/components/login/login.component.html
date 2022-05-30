@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+            <div class="card-header text-center">
+                <h2>Login Here</h2>
+            </div>
+            <div class="card-body">
+                <form #loginForm="ngForm" (ngSubmit)="login()">
+                    <div class="form-group">
+                        <label for ="username">UserName</label>
+                        <input id="username" class="form-control" name="username" #username="ngModel"
+                        [ngClass]="{'is-invalid':username.touched && username.invalid}"
+                        [(ngModel)]="model.username" required/>
+                        <span class="invalid-feedback">UserName can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="password">PassWord</label>
+                        <input id="password" type="password" class="form-control" name="password" #password="ngModel"
+                        [ngClass]="{'is-invalid':password.touched && password.invalid}"
+                        [(ngModel)]="model.password" required/>
+                        <span class="invalid-feedback">Password can't be blank.</span>
+                    </div>
+
+                    <div class="form-group">
+                        <input id="remember" type="checkbox"  name="remember" [(ngModel)]="model.remember"/>
+                        <label class="ml-1" for ="remember">Remember Me</label>
+                        
+                    </div>
+
+                    <button class="btn btn-primary btn-block" [disabled]="loginForm.invalid">Login</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,16 @@
+<table class="col-md-10 offset-md-1">
+      <tr *ngFor="let data of orderdata">
+        <td>
+            {{data.order.item}}
+        </td>
+        <!-- <td>
+            {{data.order.qty}}
+        </td> -->
+        <td>
+           Purchased on <strong>{{data.order.purchaseDate| date:'MMM d, y, h:mm:ss a'}}</strong>
+        </td>
+        <td>
+            {{data.order.price | currency:'INR'}}
+        </td>
+    </tr>
+</table>
